@@ -23,7 +23,7 @@ jobs:
         with:
           context: ./
           push: true
-          #dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
+          dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
           tags: gomesadriano/webacademy:latest
 
   deploy:
